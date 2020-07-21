@@ -9,12 +9,13 @@ public class Task15 {
         int a = 64;
         int b = 12;
 
-        if (a > b) {
-            a = a - b;
-        } else {
-            b = b - a;
+        while (a != b) {
+            if (a > b) {
+                a = a - b;
+            } else {
+                b = b - a;
+            }
         }
         System.out.println(a);
-        System.out.println(b);
     }
 }
