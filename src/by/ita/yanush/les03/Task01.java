@@ -1,8 +1,36 @@
 package by.ita.yanush.les03;
 
+/*
+В массив A[N] Занесены натуральные числа. Найти сумму тех элементов, которые кратны данному.
+ */
+
+import java.util.Random;
+
 public class Task01 {
     public static void main(String[] args) {
-      //  System.out.println("Kellp Igor");
+        Random rn = new Random();
+        int [] array = new int [5];
+        int divider = 2;
+        int sum = 0;
+
+        //заполняем массив случайными элементами
+        for(int i = 0; i < array.length; i++){
+            array[i] = rn.nextInt(1000);
+        }
+
+        //печатаем массив
+        for(int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+        }
+
+        //ищим сумму кратных элементов
+        for(int i = 0; i < array.length; i++){
+            if(array[i] % divider == 0){
+                sum = sum + array[i];
+            }
+        }
+        System.out.println(sum);
+
 
     }
 }
