@@ -17,7 +17,6 @@ public class Task07 {
 
 
         //заполняем массив случайными элементами
-
         for(int i = 0; i < array.length; i++){
             array[i] = rn.nextInt(1000);
         }
