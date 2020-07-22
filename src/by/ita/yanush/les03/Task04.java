@@ -20,7 +20,8 @@ public class Task04 {
 
         //печатаем массив
         for(int i = 0; i < array.length; i++){
-            System.out.println(array[i]);
+
+            System.out.print(array[i] + " ");
             if(array[i] % 2 == 0){
                 counter++;
             }
@@ -37,11 +38,15 @@ public class Task04 {
                 }
             }
 
+            System.out.println();
+            System.out.println("Полученный массив:");
+
             for(int i = 0; i < mas.length; i++){
-                System.out.println(mas[i]);
+                System.out.print(mas[i] + " ");
             }
 
         }else{
+            System.out.println();
             System.out.println("Нет четных чисел");
         }
 

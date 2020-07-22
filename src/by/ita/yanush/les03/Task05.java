@@ -19,11 +19,10 @@ public class Task05 {
         }
 
         //печатаем массив
-        for(int i = 0; i < array.length; i++){
-            System.out.println(array[i]);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
         }
 
-        //печатаем массив
         for(int i = 0; i < array.length; i++){
 
             if(array[i] > max){
@@ -34,6 +33,7 @@ public class Task05 {
             }
         }
 
+        System.out.println();
         System.out.println("Наименьшая длина числовой оси " + (max - min));
     }
 }

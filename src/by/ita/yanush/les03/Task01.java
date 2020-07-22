@@ -20,16 +20,17 @@ public class Task01 {
 
         //печатаем массив
         for(int i = 0; i < array.length; i++){
-            System.out.println(array[i]);
+            System.out.print(array[i] + " ");
         }
 
-        //ищим сумму кратных элементов
+        //ищем сумму кратных элементов
         for(int i = 0; i < array.length; i++){
             if(array[i] % divider == 0){
                 sum = sum + array[i];
             }
         }
-        System.out.println(sum);
+        System.out.println();
+        System.out.println("Сумма элементов кратных " + divider + " равна " + sum);
 
 
     }
