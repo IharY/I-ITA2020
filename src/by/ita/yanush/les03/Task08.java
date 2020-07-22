@@ -8,14 +8,17 @@ import java.util.Random;
 
 public class Task08 {
     public static void main(String[] args) {
-        //заполняем массив случайными элементами
+
+
         Random rn = new Random();
         int [] array = new int [5];
 
+        //заполняем массив случайными элементами
         for(int i = 0; i < array.length; i++){
             array[i] = rn.nextInt(10);
         }
 
+        //печатаем массив
         for(int i = 0; i < array.length; i++){
             System.out.print(array[i] + " ");
         }
