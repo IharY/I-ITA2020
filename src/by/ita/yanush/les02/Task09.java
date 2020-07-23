@@ -14,7 +14,7 @@ public class Task09 {
             result = Math.pow(x, 2) - 3*x + 9;
         }
 
-        if(x > 3){
+        else {
             result = 1 / (Math.pow(x, 3) + 6);
         }
         System.out.println(result);

@@ -11,8 +11,11 @@ public class Task05 {
         if (first < second) {
             System.out.println("Первое число меньше");
         }
-        else{
+        else if(first > second) {
             System.out.println("Второе число меньше");
+        }
+        else {
+            System.out.println("Числа равны");
         }
     }
 }

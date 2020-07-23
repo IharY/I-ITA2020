@@ -21,7 +21,9 @@ public class Task07 {
             counter++;
         }
 
-        switch (counter) {
+        System.out.println("среди трех чисел " + counter + " отрицательных чисел");
+
+        /*switch (counter) {
             case (1):
                 System.out.println("одно отрицательное число из трех");
                 break;
@@ -35,7 +37,9 @@ public class Task07 {
             default:
                 System.out.println("нет отрицательных чисел");
                 break;
-        }
+        }*/
+
+
 
     }
 }

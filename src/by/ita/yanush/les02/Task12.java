@@ -8,9 +8,9 @@ package by.ita.yanush.les02;
 public class Task12 {
 
     public static void main(String[] args) {
-        String str = "My string: !, @, #, $, %, ^, &, *, (, ), +, -";
+        String str = " !@#$%^&*()+-";
         for(int i = 0; i < str.length(); i++) {
-            System.out.println((int) str.charAt(i));
+            System.out.println(str.charAt(i) + " ASCII " + (int) str.charAt(i));
         }
     }
 }

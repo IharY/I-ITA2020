@@ -7,7 +7,7 @@ package by.ita.yanush.les02;
 public class Task10 {
     public static void main(String[] args) {
         int a = 2;
-        while (a != 102){
+        while (a < 102){
             System.out.println(a);
             a = a + 2;
         }

@@ -13,10 +13,11 @@ public class Task13 {
         Scanner sc = new Scanner(System.in);
         int variable;
         int result = 0;
+        System.out.println("Введите любое целое цисло:");
         variable = sc.nextInt();
         for(int i = variable; i > 0; i--){
             result += i;
         }
-        System.out.println(result);
+        System.out.println("Сумма чисел от 1 до введеного числа равна:" + result);
     }
 }
