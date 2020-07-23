@@ -9,11 +9,20 @@ public class Task08 {
 
         int A = 10;
         int B = 15;
-        int a = 12;
-        int b = 10;
-        int c = 15;
+        int a = 14;
+        int b = 9;
+        int c = 7;
 
-        if(A >= a){
+        if (((A > a) &(B > b)) || ((A > a) & (B > c)) || ((A > c) & (B > b))){
+            System.out.println("Кирпич пройдет");
+        }
+
+
+        else {
+            System.out.println("Кирпич не пройдет");
+        }
+
+        /*if(A >= a){
             if(B >= b){
                 System.out.println("Кирпич пройдет");
 
@@ -54,7 +63,9 @@ public class Task08 {
                 System.out.println("Кирпич не пройдет");
 
             }
-        }
+        }*/
+
+
 
     }
 }
