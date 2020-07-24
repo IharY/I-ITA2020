@@ -9,7 +9,7 @@ import java.util.Random;
 public class Task01 {
     public static void main(String[] args) {
         Random rn = new Random();
-        int [] array = new int [5];
+        int [] array = new int [10];
         int divider = 2;
         int sum = 0;
 
@@ -19,7 +19,7 @@ public class Task01 {
         }
 
         //печатаем массив
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
 

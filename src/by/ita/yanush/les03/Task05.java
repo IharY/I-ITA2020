@@ -9,13 +9,13 @@ import java.util.Random;
 public class Task05 {
     public static void main(String[] args) {
         Random rn = new Random();
-        int [] array = new int [5];
+        int[] array = new int[5];
         int min = 999;
-        int max = 0;
+        int max = -999;
 
         //заполняем массив случайными элементами
-        for(int i = 0; i < array.length; i++){
-            array[i] = rn.nextInt(1000);
+        for (int i = 0; i < array.length; i++) {
+            array[i] = rn.nextInt(1000) - 500;
         }
 
         //печатаем массив
@@ -23,12 +23,12 @@ public class Task05 {
             System.out.print(array[i] + " ");
         }
 
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
 
-            if(array[i] > max){
+            if (array[i] > max) {
                 max = array[i];
             }
-            if(array[i] < min){
+            if (array[i] < min) {
                 min = array[i];
             }
         }
