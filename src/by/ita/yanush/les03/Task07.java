@@ -8,17 +8,16 @@ import java.util.Random;
 
 public class Task07 {
     public static void main(String[] args) {
-        Random rn = new Random();
-        int[] array = new int[10];
+        //Random rn = new Random();
+        int[] array = {10, 11, 2, 7, 9, 18, 14, 8, 12, 1};
         int maxpointer = 0;
         int minpointer = 0;
         int helper;
 
-
-        //заполняем массив случайными элементами
+        /*//заполняем массив случайными элементами
         for (int i = 0; i < array.length; i++) {
             array[i] = rn.nextInt(1000) - 500;
-        }
+        }*/
 
         int max = array[0];
         int min = array[0];
