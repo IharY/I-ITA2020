@@ -10,8 +10,6 @@ public class Task10 {
     public static void main(String[] args) {
         Random rn = new Random();
         int[] array = new int[10];
-        int counter = 0;
-        int Z = 888;
         int last = array.length - 1;
         int max = 0;
 
