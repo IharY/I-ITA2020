@@ -6,7 +6,24 @@ package by.ita.yanush.les04;
  */
 
 public class Task12 {
-    int m = 5;
-    int n = 5;
-    int[][] matrix = new int[m][n];
+    public static void main(String[] args) {
+        int m = 5;
+        int n = 5;
+        int[][] matrix = new int[m][n];
+        for (int j = 0; j < matrix[0].length; j++) {
+            for (int i = 0; i < matrix.length; i++) {
+                if(j <= i) {
+                    matrix[i][j] = 1;
+                }
+            }
+
+        }
+        for (int j = 0; j < matrix[0].length; j++) {
+            for (int i = 0; i < matrix.length; i++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+
+        }
+    }
 }
