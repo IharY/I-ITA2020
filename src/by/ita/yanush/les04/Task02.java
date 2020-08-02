@@ -27,7 +27,7 @@ public class Task02 {
 
         System.out.println();
         System.out.println("k-ая строка");
-        for (int j = 0; j < matrix[matrix.length - 1].length; j++) {
+        for (int j = 0; j < matrix[matrix[0].length].length; j++) {
 
             System.out.print(matrix[k - 1][j] + " ");
         }
