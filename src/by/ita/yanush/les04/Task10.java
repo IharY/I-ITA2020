@@ -11,6 +11,7 @@ public class Task10 {
         Random rn = new Random();
         int[][] matrix = new int[5][5];
 
+
         System.out.println("Исходная матрица:");
 
         for (int i = 0; i < matrix.length; i++) {
@@ -28,20 +29,11 @@ public class Task10 {
         for (int i = 0; i < matrix.length; i++) {
             if (matrix[i][i] > 0) {
                 System.out.println(matrix[i][i]);
-                //mas[pointer] = matrix[i][i];
-                //pointer++;
+
             }
 
         }
-        /*System.out.println("Положительные элементы на главной диагонали;");
-        for (int i = 0; i < matrix.length; i++) {
-            if (mas[i] != 0) {
 
-                System.out.println(mas[i]);
-            }
-
-
-        }*/
 
     }
 }

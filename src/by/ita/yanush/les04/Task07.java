@@ -29,13 +29,7 @@ public class Task07 {
 
         System.out.println();
         System.out.println("Новая матрица: ");
-        /*for (int i = 0; i < matrix.length; i++){
-            for (int j = matrix[i].length - 1; j >= 0; j--) {
 
-                //matrix[i][matrix.length - 1 - i] = i + 1;
-                System.out.print(matrix[i][j - i] = i + 1);
-            }
-        }*/
         for (int i = 0; i < matrix.length; i++){
             for (int j = 0; j < matrix[0].length; j++) {
                 matrix[i][j] = i + 1;
