@@ -10,8 +10,6 @@ public class Task10 {
     public static void main(String[] args) {
         Random rn = new Random();
         int[][] matrix = new int[5][5];
-        int[] mas = new int[matrix[0].length];
-        int pointer = 0;
 
         System.out.println("Исходная матрица:");
 
