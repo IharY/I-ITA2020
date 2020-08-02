@@ -16,7 +16,7 @@ import java.util.Random;
 public class Task09 {
     public static void main(String[] args) {
         Random rn = new Random();
-        double [][] matrix = new double[5][5];
+        double [][] matrix = new double[6][6];
         double [] mas = new double[matrix[0].length];
 
         for(int i = 0; i < mas.length; i++){

@@ -13,7 +13,7 @@ package by.ita.yanush.les04;
 
 public class Task08 {
     public static void main(String[] args) {
-        int[][] matrix = new int[5][5];
+        int[][] matrix = new int[6][6];
         //увеличиваем размер массива, чтобы не столкнуться с ошибкой выхода за его пределы
         int [] mas = new int [matrix.length + 5];
         //Pointer нужен для того чтобы двигатся по вспомогательному массиву вправо

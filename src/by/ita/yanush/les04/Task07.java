@@ -13,7 +13,7 @@ package by.ita.yanush.les04;
 
 public class Task07 {
     public static void main(String[] args) {
-        int[][] matrix = new int[5][5];
+        int[][] matrix = new int[6][6];
         int breaker = 4;
 
         System.out.println("Исходная матрица:");
